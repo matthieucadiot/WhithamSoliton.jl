@@ -30,7 +30,7 @@ as it provides the necessary rigorous computations along the paper. Such computa
 # The capillary-gravity Whitham equation
 
 The capillary-gravity Whitham equtation is a nonlocal equation modelling surface water waves. The equation possesses travelling waves solutions, which can be studied throughout the following equation
-$$\mathbb{M}_T - cu + u^2 = 0,$$
+$$\mathbb{M}_Tu - cu + u^2 = 0,$$
 where $c$ is the is the velocity of the wave and $\mathbb{M}_T$ is a Fourier multiplier operator given by its symbol
 $$\mathcal{F}(\mathbb{M}_Tu)(\xi)  = \sqrt{\frac{\tanh(2\pi\xi)(1+T(2\pi\xi)^2)}{2\pi\xi}}\hat{u}(\xi).$$
 $T \geq 0$ is the Bond number accounting for the surface tension. In particular, if $T=0$, then the equation is purely gravitational and is often refered as the so-called Whitham equation in the literature.
