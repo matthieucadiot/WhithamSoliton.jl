@@ -41,7 +41,7 @@ Both the case $T>0$ and $T=0$ are known to possess soliraty waves, that is trave
 
 ## Proof of solitary waves
 
-The main code "Existence_and_stability_Whitham.jl" provides the computer-assisted component for the constructive proofs of existence of solitary waves using the analysis of [[1]](https://arxiv.org/abs/2403.18718). Two approximate solutions (cf. the two .jld2 files, one in the case $T=0$ and one in the case $T>0$) have already been computed and the main code provides the algorithmic details for a proof of existence in a neighborhood of such approximate solutions. The interested user can directly go to line 630 of the main code.
+The main code "Existence_and_stability_Whitham.jl" provides the computer-assisted component for the constructive proofs of existence of solitary waves using the analysis of [[1]](https://arxiv.org/abs/2403.18718). Two approximate solutions W_05_08_40.jld2 (cf. the two .jld2 files, one in the case $T=0$ and one in the case $T>0$) have already been computed and the main code provides the algorithmic details for a proof of existence in a neighborhood of such approximate solutions. The interested user can directly go to line 630 of the main code.
 
 The code will compute rigorously the needed bounds of Section 3 of [[1]](https://arxiv.org/abs/2403.18718) and validate (or not) the computer-assisted proof. If the computer-assisted proof succeeds, the radius for the smallest and biggest ball of contraction are displayed, as well as the bounds.
 
