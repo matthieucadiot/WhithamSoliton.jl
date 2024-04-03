@@ -10,10 +10,10 @@ Table of contents:
 
 
 * [Introduction](#introduction)
-* [The Kawahara equation](#the-kawahara-equation)
-   * [Proof of solitons](#Proof-of-solitons)
-   * [Proof of the first 3 eigencouples](#Proof-of-the-first-3-eigencouples)
-   * [Proof of orbital stability](#Proof-of-orbital-stability)
+* [The capillary-gravity Whitham equation](#the-capillary-gravity-whitham-equation)
+   * [Proof of solitary waves](#Proof-of-solitary-waves)
+   * [Proof of the first 2 eigencouples](#Proof-of-the-first-2-eigencouples)
+   * [Proof of spectral stability](#Proof-of-spectral-stability)
 * [Utilisation and References](#utilisation-and-references)
 * [License and Citation](#license-and-citation)
 * [Contact](#contact)
@@ -81,3 +81,9 @@ If you wish to use this code in your publication, research, teaching, or other a
   year   = {2024}
 }
 ```
+
+# Contact
+
+You can contact me at :
+
+matthieu.cadiot@mail.mcgill.ca
