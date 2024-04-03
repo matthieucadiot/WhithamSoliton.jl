@@ -1,5 +1,4 @@
-using MAT, JLD2, IntervalLinearAlgebra, FileIO, Plots, PrettyTables
-using RadiiPolynomial, IntervalArithmetic, LinearAlgebra ; Interval(1)*Interval(1)
+using  JLD2, PrettyTables, RadiiPolynomial, IntervalArithmetic, LinearAlgebra 
 
 
 function trace(N)
