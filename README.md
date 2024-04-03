@@ -61,7 +61,7 @@ If the proof of the first 2 eigencouples is achieved, then the code will try to 
  - [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl) 
  - [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl)
  - [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/)
- - [FFTW](https://github.com/JuliaMath/FFTW.jl)
+ - [JLD2](https://github.com/JuliaIO/JLD2.jl)
  - [PrettyTables](https://ronisbr.github.io/PrettyTables.jl/stable/).
  
  You will need to install these packages. After that, you should be able to run the code normally.
