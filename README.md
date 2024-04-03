@@ -58,14 +58,13 @@ If the proof of the first 2 eigencouples is achieved, then the code will try to 
  # Utilisation and References
 
  The interested user can directly go to line 630 of the main code in order to use the code. The code is general and provides rigorous computations of the required bounds for any values of $c$ and $T$ satisfying Assumption 1 in [[1]](https://arxiv.org/abs/2403.18718). Illustrations are provided for both files W_0_11_50.jld2 and W_05_08_40.jld2.
-  The code is build using the following packages :
+  The code is built using the following packages :
  - [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl) 
  - [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl)
  - [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/)
  - [JLD2](https://github.com/JuliaIO/JLD2.jl)
  - [PrettyTables](https://ronisbr.github.io/PrettyTables.jl/stable/).
  
- You will need to install these packages. After that, you should be able to run the code normally.
  
  # License and Citation
  
