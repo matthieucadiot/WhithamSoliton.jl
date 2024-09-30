@@ -46,7 +46,7 @@ The code will compute rigorously the needed bounds of Section 3 of [[1]](https:/
 
 ### Proof of the first 2 eigencouples
 
-If the proof of the soliton is achieved, the code will then compute approximations for the first 2 eigencouples of the linearization around the proved soliton. Then, the needed bounds for the proof of eigencouples are computed, following the analysis of Section 5 of [[1]](https://arxiv.org/abs/2403.18718) (cf. Theorem 5.6). If the proof of the eigencouple succeeds, we obtain that the corresponding eigenvalue is simple and the interval in which it is unique is displayed.
+If the proof of the solitary wave is achieved, the code will then compute approximations for the first 2 eigencouples of the linearization around the proved solution. Then, the needed bounds for the proof of eigencouples are computed, following the analysis of Section 5 of [[1]](https://arxiv.org/abs/2403.18718) (cf. Theorem 5.6). If the proof of the eigencouple succeeds, we obtain that the corresponding eigenvalue is simple and the interval in which it is unique is displayed.
  
  
  ### Proof of spectral stability
@@ -79,11 +79,11 @@ The code "proof_continuation.jl" performs the verification of an existence proof
 If you wish to use this code in your publication, research, teaching, or other activities, please cite it using the following BibTeX template:
 
 ```
-@software{WhithamSoliton.jl,
+@software{WhithamSolitary.jl,
   author = {Matthieu Cadiot},
-  title  = {WhithamSoliton.jl},
-  url    = {https://github.com/matthieucadiot/WhithamSoliton.jl},
-  note = {\url{ https://github.com/matthieucadiot/WhithamSoliton.jl},
+  title  = {WhithamSolitary.jl},
+  url    = {https://github.com/matthieucadiot/WhithamSolitary.jl},
+  note = {\url{ https://github.com/matthieucadiot/WhithamSolitary.jl},
   year   = {2024}
 }
 ```
