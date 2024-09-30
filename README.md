@@ -79,11 +79,11 @@ The code "proof_continuation.jl" performs the verification of an existence proof
 If you wish to use this code in your publication, research, teaching, or other activities, please cite it using the following BibTeX template:
 
 ```
-@software{WhithamSolitary.jl,
+@software{WhithamSoliton.jl,
   author = {Matthieu Cadiot},
-  title  = {WhithamSolitary.jl},
-  url    = {https://github.com/matthieucadiot/WhithamSolitary.jl},
-  note = {\url{ https://github.com/matthieucadiot/WhithamSolitary.jl},
+  title  = {WhithamSoliton.jl},
+  url    = {https://github.com/matthieucadiot/WhithamSoliton.jl},
+  note = {\url{ https://github.com/matthieucadiot/WhithamSoliton.jl},
   year   = {2024}
 }
 ```
