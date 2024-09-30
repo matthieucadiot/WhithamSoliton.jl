@@ -64,13 +64,12 @@ The code "proof_continuation.jl" performs the verification of an existence proof
  
  # Utilisation and References
 
- The interested user can directly go to line 630 of the main code in order to use the code. The code is general and provides rigorous computations of the required bounds for any values of $c$ and $T$ satisfying Assumption 1 in [[1]](https://arxiv.org/abs/2403.18718). Illustrations are provided for both files W_0_11_50.jld2 and W_05_08_40.jld2.
-  The code is built using the following packages :
+ The interested user needs to download all files in the same folder. The code "list_of_functions.jl" contains all the necessary functions to perform the computer-assisted proofs. The main codes "proof_full_whitham" and "proof_continuation" can then be run. The codes are general and provides rigorous computations of the required bounds for any values of $c$ and $T$ satisfying Assumption 1 in [[1]](https://arxiv.org/abs/2403.18718).
+  The codes are built using the following packages :
  - [RadiiPolynomial](https://github.com/OlivierHnt/RadiiPolynomial.jl) 
  - [IntervalArithmetic](https://github.com/JuliaIntervals/IntervalArithmetic.jl)
  - [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/)
  - [JLD2](https://github.com/JuliaIO/JLD2.jl)
- - [PrettyTables](https://ronisbr.github.io/PrettyTables.jl/stable/).
  
  
  # License and Citation
